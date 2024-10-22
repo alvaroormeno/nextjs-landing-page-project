@@ -606,6 +606,18 @@ video {
   --tw-text-opacity: 1;
   color: rgb(1 13 62 / var(--tw-text-opacity));
 }
+.testimonial-card {
+  width: 100%;
+  max-width: 20rem;
+  border-radius: 1.5rem;
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(241 241 241 / var(--tw-border-opacity));
+  padding: 2.5rem;
+  --tw-shadow: 0 7px 14px #EAEAEA;
+  --tw-shadow-colored: 0 7px 14px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
 .absolute {
   position: absolute;
 }
@@ -676,6 +688,9 @@ video {
 .hidden {
   display: none;
 }
+.h-10 {
+  height: 2.5rem;
+}
 .h-2 {
   height: 0.5rem;
 }
@@ -687,6 +702,12 @@ video {
 }
 .h-6 {
   height: 1.5rem;
+}
+.max-h-\[740px\] {
+  max-height: 740px;
+}
+.w-10 {
+  width: 2.5rem;
 }
 .w-2 {
   width: 0.5rem;
@@ -740,6 +761,9 @@ video {
 .gap-14 {
   gap: 3.5rem;
 }
+.gap-2 {
+  gap: 0.5rem;
+}
 .gap-3 {
   gap: 0.75rem;
 }
@@ -760,6 +784,9 @@ video {
 }
 .rounded-3xl {
   border-radius: 1.5rem;
+}
+.rounded-full {
+  border-radius: 9999px;
 }
 .rounded-lg {
   border-radius: 0.5rem;
@@ -863,6 +890,9 @@ video {
 .pb-20 {
   padding-bottom: 5rem;
 }
+.pb-6 {
+  padding-bottom: 1.5rem;
+}
 .pr-14 {
   padding-right: 3.5rem;
 }
@@ -894,6 +924,9 @@ video {
 }
 .font-medium {
   font-weight: 500;
+}
+.leading-5 {
+  line-height: 1.25rem;
 }
 .leading-none {
   line-height: 1;
@@ -948,6 +981,9 @@ video {
 }
 .\[background-size\:200\%\] {
   background-size: 200%;
+}
+.\[mask-image\:linear-gradient\(to_bottom\2c transparent\2c black_25\%\2c black_75\%\2c transparent\)\] {
+  mask-image: linear-gradient(to bottom,transparent,black 25%,black 75%,transparent);
 }
 
 @media (min-width: 768px) {
