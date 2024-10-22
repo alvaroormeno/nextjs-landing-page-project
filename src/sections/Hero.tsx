@@ -28,7 +28,7 @@ export const Hero = () => {
         <section
             ref={heroRef}
             className="pt-8 pb-20 md:pt-5 md:pb-10 overflow-x-clip"
-            style={{ background: "radial-gradient(ellipse 200% 100% at bottom left, #183EC2, #EAEEFE 100%)" }}
+            style={{ background: "radial-gradient(ellipse 200% 100% at bottom left, #25013e, #EAEEFE 100%)" }}
         >
 
             <div className="container">
