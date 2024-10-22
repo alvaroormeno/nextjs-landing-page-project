@@ -19,58 +19,58 @@ import human9 from "@/assets/avatar-9.png";
 
 const testimonials = [
     {
-        text: "As a seasoned designer always on the lookout for innovative tools, Framer.com instantly grabbed my attention.",
+        text: "As a busy designer juggling multiple projects, this time management app quickly became my go-to solution.",
         imageSrc: human1.src,
-        name: "Jamie Rivera",
-        username: "@jamietechguru00",
+        name: "Alex Carter",
+        username: "@alexcarterpro",
     },
     {
-        text: "Our team's productivity has skyrocketed since we started using this tool. ",
+        text: "Our team's efficiency has soared ever since we started using this app to organize our schedules.",
         imageSrc: human2.src,
-        name: "Josh Smith",
-        username: "@jjsmith",
+        name: "Chris Adams",
+        username: "@chrisadams",
     },
     {
-        text: "This app has completely transformed how I manage my projects and deadlines.",
+        text: "This app has revolutionized how I plan my days and meet deadlines with ease.",
         imageSrc: human3.src,
-        name: "Morgan Lee",
-        username: "@morganleewhiz",
+        name: "Taylor Morgan",
+        username: "@taylormorgan",
     },
     {
-        text: "I was amazed at how quickly we were able to integrate this app into our workflow.",
+        text: "I was impressed at how seamlessly this app fit into our team's workflow, making time management effortless.",
         imageSrc: human4.src,
-        name: "Casey Jordan",
-        username: "@caseyj",
+        name: "Jordan Bennett",
+        username: "@jordanbennett",
     },
     {
-        text: "Planning and executing events has never been easier. This app helps me keep track of all the moving parts, ensuring nothing slips through the cracks.",
+        text: "Planning events has never been more organized. This app helps me stay on top of every detail, so nothing falls through the cracks.",
         imageSrc: human5.src,
-        name: "Taylor Kim",
-        username: "@taylorkimm",
+        name: "Drew Collins",
+        username: "@drewcollins",
     },
     {
-        text: "The customizability and integration capabilities of this app are top-notch.",
+        text: "The flexibility and integration options of this app are unmatched, making it essential for managing my time effectively.",
         imageSrc: human6.src,
-        name: "Riley Smith",
-        username: "@rileysmith1",
+        name: "Morgan Blake",
+        username: "@morganblake",
     },
     {
-        text: "Adopting this app for our team has streamlined our project management and improved communication across the board.",
+        text: "Using this app has streamlined our team’s project planning and improved communication throughout.",
         imageSrc: human7.src,
-        name: "Jordan Patels",
-        username: "@jpatelsdesign",
+        name: "Avery Parker",
+        username: "@averyparker",
     },
     {
-        text: "With this app, we can easily assign tasks, track progress, and manage documents all in one place.",
+        text: "With this app, we easily assign tasks, track progress, and manage our time—all in one place.",
         imageSrc: human8.src,
-        name: "Sam Dawson",
-        username: "@dawsontechtips",
+        name: "Charlie Nguyen",
+        username: "@charlienguyen",
     },
     {
-        text: "Its user-friendly interface and robust features support our diverse needs.",
+        text: "Its intuitive interface and powerful features perfectly support our diverse time management needs.",
         imageSrc: human9.src,
-        name: "Casey Harper",
-        username: "@casey09",
+        name: "Riley Brooks",
+        username: "@rileybrooks",
     },
 ];
 
@@ -132,17 +132,16 @@ export const Testimonials = () => {
 
 
     return (
-        <section className="bg-white">
+        <section className="py-24 bg-white">
             <div className="container">
                 <div className="section-heading">
-                    <div className="flex justify-center">
+                    {/* <div className="flex justify-center">
                         <div className="tag">Testimonials</div>
-                    </div>
+                    </div> */}
 
-                    <h2 className="section-main-title mt-5">What our users say</h2>
+                    <h2 className="section-main-title mt-5">Feedback from our community</h2>
                     <p className="section-description mt-5">
-                        From intuitive design to powerful features, out app has become an essential tool for users around
-                        the world.
+                        With its intuitive design and powerful features, our time management app has become an indispensable tool for users worldwide.
                     </p>
                 </div>
 

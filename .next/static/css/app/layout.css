@@ -572,6 +572,11 @@ video {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
+.btn-text {
+  background-color: transparent;
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
 .btn-text-blue {
   background-color: transparent;
   --tw-text-opacity: 1;
@@ -618,6 +623,11 @@ video {
   --tw-shadow-colored: 0 7px 14px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
+.section-heading {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 540px;
+}
 .absolute {
   position: absolute;
 }
@@ -633,14 +643,26 @@ video {
 .-left-36 {
   left: -9rem;
 }
+.-left-\[190px\] {
+  left: -190px;
+}
 .-right-36 {
   right: -9rem;
+}
+.-right-\[200px\] {
+  right: -200px;
 }
 .-top-32 {
   top: -8rem;
 }
 .-top-8 {
   top: -2rem;
+}
+.-top-\[-40px\] {
+  top: 40px;
+}
+.-top-\[137px\] {
+  top: -137px;
 }
 .bottom-24 {
   bottom: 6rem;
@@ -653,6 +675,15 @@ video {
 }
 .top-\[524px\] {
   top: 524px;
+}
+.-top-\[40px\] {
+  top: -40px;
+}
+.-right-\[300px\] {
+  right: -300px;
+}
+.-left-\[290px\] {
+  left: -290px;
 }
 .z-20 {
   z-index: 20;
@@ -839,6 +870,11 @@ video {
   --tw-gradient-to: rgb(0 0 0 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
+.from-white {
+  --tw-gradient-from: #fff var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(255 255 255 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
 .to-\[\#001E80\] {
   --tw-gradient-to: #001E80 var(--tw-gradient-to-position);
 }
@@ -850,6 +886,10 @@ video {
 }
 .p-10 {
   padding: 2.5rem;
+}
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 .px-3 {
   padding-left: 0.75rem;
@@ -887,6 +927,10 @@ video {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
 .pb-20 {
   padding-bottom: 5rem;
 }
@@ -898,6 +942,9 @@ video {
 }
 .pt-8 {
   padding-top: 2rem;
+}
+.pt-24 {
+  padding-top: 6rem;
 }
 .text-4xl {
   font-size: 2.25rem;
