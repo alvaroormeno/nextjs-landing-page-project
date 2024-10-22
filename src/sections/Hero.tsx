@@ -6,8 +6,8 @@ import { motion, useScroll, useTransform, useMotionValueEvent } from "framer-mot
 // IMAGES
 import ArrowIcon from "@/assets/arrow-right.svg";
 import calendarImage from "@/assets/calendar-home.png";
-import chartImage from "@/assets/chart-home.png";
-import hardwareImage from "@/assets/hardware-home.png";
+import chartImage from "@/assets/chart-display.png";
+import hardwareImage from "@/assets/checklist.png";
 
 
 
@@ -35,9 +35,7 @@ export const Hero = () => {
                 <div className="md:flex items-center">
 
                 <div className="md:w-[478px]">
-                    <div className="text-sm inline-flex border border-[#222]/10 px-3 py-1 rounded-lg tracking-tight">
-                        Version 3.8 is here
-                    </div>
+
                     <h1 className="text-5xl md:text-7xl font-bold tracking-tighter bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text mt-6">
                         Your Time Efficiency hub
                     </h1>
@@ -57,7 +55,7 @@ export const Hero = () => {
                 <div className="mt-20 md:mt-0 md:h-[648px] md:flex-1 relative">
                     <motion.img
                         src={calendarImage.src}
-                        alt="Cog"
+                        alt="Calendar Image"
                         className="md:absolute md:h-full md:w-auto md:max-w-none md:-left-6 lg:left-0"
                         animate={{
                             translateY: [-30, 30],
@@ -73,8 +71,8 @@ export const Hero = () => {
                         src={chartImage.src}
                         width={220}
                         height={220}
-                        alt="Cylinder image"
-                        className="hidden md:block -top-8 -left-32 md:absolute"
+                        alt="Chart Image"
+                        className="hidden md:block -top-5 -left-32 md:absolute"
                         style={{
                             translateY: translateY,
                         }}
@@ -82,7 +80,7 @@ export const Hero = () => {
                     <motion.img
                         src={hardwareImage.src}
                         width={220}
-                        alt="Noodle image"
+                        alt="Checklist image"
                         className="hidden lg:block top-[524px] left-[448px] absolute rotate-[30deg]"
                         style={{
                             rotate: 30,

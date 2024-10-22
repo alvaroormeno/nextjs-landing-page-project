@@ -33,7 +33,7 @@ export const SignUp = () => {
 
                     <motion.img
                         src={megaphoneImage.src}
-                        alt="star image"
+                        alt="Megaphone image"
                         width={260}
                         className="absolute -left-[290px] -top-[137px]"
                         style={{
@@ -42,7 +42,7 @@ export const SignUp = () => {
                     />
                     <motion.img
                         src={chartDisplayImage.src}
-                        alt="spring image"
+                        alt="Chart image"
                         width={260}
                         className="absolute -right-[300px] -top-[-40px]"
                         style={{

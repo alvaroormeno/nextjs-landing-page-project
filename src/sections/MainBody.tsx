@@ -5,7 +5,7 @@ import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 
 // IMAGES
-import productImage from "@/assets/tab-data-manager.png";
+import dashboardImage from "@/assets/tab-data-manager.png";
 import calendarImage from "@/assets/calendar-timer.png";
 import checklistImage from "@/assets/checklist.png";
 
@@ -38,10 +38,10 @@ export const MainBody = () => {
                 </div>
 
                 <div className="relative">
-                <Image src={productImage} alt="Product image" className="mt-10" />
+                <Image src={dashboardImage} alt="App Dashboard image" className="mt-10" />
                 <motion.img
                     src={calendarImage.src}
-                    alt="Pyramid image"
+                    alt="Calendar image"
                     height={262}
                     width={262}
                     className="hidden md:block absolute -right-36 -top-32"
@@ -51,7 +51,7 @@ export const MainBody = () => {
                 />
                 <motion.img
                     src={checklistImage.src}
-                    alt="Tube image"
+                    alt="Checklist image"
                     height={248}
                     width={208}
                     className="hidden md:block absolute bottom-24 -left-36"
