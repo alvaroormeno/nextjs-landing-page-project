@@ -1,7 +1,9 @@
 "use client";
-import CheckIcon from "@/assets/check.svg";
 import { twMerge } from "tailwind-merge";
 import { motion } from "framer-motion";
+
+// IMAGES
+import CheckIcon from "@/assets/check.svg";
 
 
 const pricingTiers = [

@@ -1,12 +1,13 @@
 
 "use client";
+import { useRef } from "react";
+import Image from "next/image";
+import { motion, useScroll, useTransform } from "framer-motion";
+
+// IMAGES
 import productImage from "@/assets/tab-data-manager.png";
 import calendarImage from "@/assets/calendar-timer.png";
 import checklistImage from "@/assets/checklist.png";
-import Image from "next/image";
-import { motion, useScroll, useTransform } from "framer-motion";
-import { useRef } from "react";
-
 
 
 export const MainBody = () => {

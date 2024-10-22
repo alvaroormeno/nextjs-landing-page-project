@@ -1,10 +1,12 @@
 
 "use client";
+import { useRef } from "react";
+import { motion, useScroll, useTransform } from "framer-motion";
+
+// IMAGES
 import ArrowRight from "@/assets/arrow-right.svg";
 import megaphoneImage from "@/assets/megaphone.png";
 import chartDisplayImage from "@/assets/chart-display.png";
-import { motion, useScroll, useTransform } from "framer-motion";
-import { useRef } from "react";
 
 
 export const SignUp = () => {

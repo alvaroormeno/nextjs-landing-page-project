@@ -1,12 +1,15 @@
 "use client";
+import { motion } from "framer-motion";
+import Image from "next/image";
+
+// IMAGES
 import ocofLogo from "@/assets/ocof-logo.webp";
 import carboniteLogo from "@/assets/carbonite-logo.png";
 import stripeLogo from "@/assets/stripe-logo.webp";
 import kinaxisLogo from "@/assets/Kinaxis_Logo_Single_Mono.png";
 import nikeLogo from "@/assets/nike-logo.webp";
 import disneyLogo from "@/assets/Disney_400.png";
-import { motion } from "framer-motion";
-import Image from "next/image";
+
 
 export const LogoCarousel = () => {
     return (

@@ -1,16 +1,15 @@
 
 "use client";
 import { useRef } from "react";
+import { motion, useScroll, useTransform, useMotionValueEvent } from "framer-motion";
 
+// IMAGES
 import ArrowIcon from "@/assets/arrow-right.svg";
-import cogImage from "@/assets/cog.png";
-import cylinderImage from "@/assets/cylinder.png";
-import noodleImage from "@/assets/noodle.png";
 import calendarImage from "@/assets/calendar-home.png";
 import chartImage from "@/assets/chart-home.png";
 import hardwareImage from "@/assets/hardware-home.png";
-import { motion, useScroll, useTransform, useMotionValueEvent } from "framer-motion";
-import Image from "next/image";
+
+
 
 
 

@@ -6,7 +6,7 @@ import React, { use } from "react";
 import { twMerge } from "tailwind-merge";
 import { motion } from "framer-motion";
 
-
+// IMAGES
 import human1 from "@/assets/avatar-1.png";
 import human2 from "@/assets/avatar-2.png";
 import human3 from "@/assets/avatar-3.png";
