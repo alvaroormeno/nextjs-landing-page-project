@@ -32,3 +32,5 @@ A simple but engaging SAAS Landing Page including hero, pricing, testimonials an
 ## Screenshots
 
 ![Screenshot 1](src/assets/screenshots/screenshot_1.png)
+![Screenshot 2](src/assets/screenshots/screenshot_2.png)
+![Screenshot 3](src/assets/screenshots/screenshot_3.png)
