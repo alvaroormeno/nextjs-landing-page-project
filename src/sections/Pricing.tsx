@@ -24,15 +24,13 @@ const pricingTiers = [
     },
     {
         title: "Pro",
-        monthlyPrice: 9,
+        monthlyPrice: 8.99,
         buttonText: "Sign up now",
         popular: true,
         bestValue: false,
         inverse: true,
         features: [
-        "Up to 50 project members",
-        "Unlimited tasks and projects",
-        "50GB storage",
+        'Free +',
         "Integrations",
         "Priority support",
         "Advanced support",
@@ -41,16 +39,13 @@ const pricingTiers = [
     },
     {
         title: "Business",
-        monthlyPrice: 19,
+        monthlyPrice: 29.99,
         buttonText: "Sign up now",
         popular: false,
         bestValue: true,
         inverse: false,
         features: [
-        "Up to 5 project members",
-        "Unlimited tasks and projects",
-        "200GB storage",
-        "Integrations",
+        'Pro +',
         "Dedicated account manager",
         "Custom fields",
         "Advanced analytics",
@@ -84,12 +79,12 @@ export const Pricing = () => {
                         key={title}
                         className={twMerge(
                             "p-10 rounded-3xl border border-[#F1F1F1] shadow-[0_7px_14px_#EAEAEA] max-w-xs w-full",
-                            inverse === true && "border-black bg-black text-white"
+                            inverse === true && "border-[#010D3E] bg-[#010D3E] text-white"
                         )}
                     >
 
                     <div className="flex justify-between">
-                        <h3 className={twMerge("text-lg font-bold text-black/50", inverse && "text-white/60")}>
+                        <h3 className={twMerge("text-lg font-bold text-[#010D3E]/50", inverse && "text-white/60")}>
                         {title}
                         </h3>
                         {popular || bestValue  ? (
@@ -113,12 +108,17 @@ export const Pricing = () => {
                     </div>
 
                     <div className="flex items-baseline gap-1 mt-[30px]">
-                        <span className="text-4xl font-bold tracking-tighter leading-none">${monthlyPrice}</span>
-                        <span className="tracking-tight font-bold text-black/50">/month</span>
+                        <span  
+                            className={twMerge("text-4xl text-[#010D3E]  font-bold tracking-tighter leading-none", inverse && "text-white/60")}
+                            // className="text-4xl  font-bold tracking-tighter leading-none"
+                        >
+                            ${monthlyPrice}
+                        </span>
+                        <span className={twMerge("tracking-tight font-bold text-[#010D3E]/50", inverse && "text-white/60")}>/month</span>
                     </div>
 
                     <button
-                        className={twMerge("btn btn-primary w-full mt-[30px]", inverse && "bg-white text-black")}
+                        className={twMerge("btn btn-blue w-full mt-[30px]", inverse && "bg-white text-[#010D3E]")}
                     >
                         {buttonText}
                     </button>
